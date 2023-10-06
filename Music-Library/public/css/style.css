@@ -6,7 +6,6 @@
 
 html{
     font-size: 62.5%;
-    scroll-behavior: smooth;
 }
 
 body{
@@ -17,13 +16,33 @@ body{
 }
 
 .list{
+    background: blue;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
     
 }
 
 .list-item{
-
+    background: red;
+    list-style: none;
+    width: 20rem;
+    height: 20rem;
+    padding: 1rem;
+    position: relative;
 } 
 
 .item--h2{
-    font-family: 'Borel', cursive;    
+    font-family: 'Borel', cursive; 
+    font-size: 150%;   
+}
+
+.item--h4f{
+    font-size: 90%;
+}
+
+.item--p{
+    position: absolute;
+    bottom: 0;
 }
